@@ -1,0 +1,118 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background-color: #34495e;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+}
+.hero{
+    background-image: url('luxury.jpg');
+    background-size: cover;
+    background-position: centre;
+    color: white;
+    padding:100px 20px;
+    text-align: center;
+text-shadow: 2px 2px 5px black;
+}
+.hero h2 {
+    font-size: 40px;
+    margin: 20px 0;
+
+}
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.hero button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+
+}
+.hero button:hover {
+    background-color: #e67e22;
+
+}
+.gallery {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.gallery h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #2c3e50;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-grid img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+img-box {
+  text-align: center;
+}
+
+.img-box p {
+  margin-top: 8px;
+  font-weight: 500;
+  color: #333;
+  font-size: 16px;
+}
