@@ -18,15 +18,16 @@
   </nav>
 
   <main class="form-section">
-    <form onsubmit="alert('Message sent!'); return false;">
+    <form action = "https://formspree.io/f/xkgzqywj"
+    method = "post">
       <label>Your Name:</label>
-      <input type="text" required>
+      <input type="text" name="Name">
 
       <label>Email:</label>
-      <input type="email" required>
+      <input type="email" name="email">
 
       <label>Your Message:</label>
-      <textarea rows="5" required></textarea>
+      <textarea rows="5" name="message"></textarea>
 
       <button type="submit">Send Message</button>
     </form>
